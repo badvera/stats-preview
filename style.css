@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    width: 800px;
+    height: 320px;
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    margin: auto;
+    margin-top: 10em;
+    border-radius: 6px;
+}
+
+.side{
+    width: 50%;
+}
+#head{
+    width: 18rem;
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+#head span{
+    color: hsl(277, 64%, 61%);
+}
+.nums p{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.nums span{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px;
+    display: block;
+}
+.info{
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 40ch;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 25px;
+}
+p{
+    font-size: 13px;
+}
+.nums{
+    display: flex;
+    justify-content: space-between;
+    width: 28ch
+    
+}
+
+.right-side{
+    background-image: url(images/image-header-desktop.jpg);
+     background-size: contain;
+    opacity: 30%;
+    background-color: hsl(277, 64%, 61%);
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 425px;
+
+}
